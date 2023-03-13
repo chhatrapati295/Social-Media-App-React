@@ -1,0 +1,64 @@
+.post{
+    /* border: 2px solid red; */
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px 1px grey;
+}
+.postProfileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sm-post1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.postProfileName{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.postTime{
+    font-size: 0.9rem;
+}
+.post1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.post2{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.post3{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1rem;
+}
+.post3 .post3Img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.post4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post4-sm1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.post4Img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.post4-text2{
+    color: grey;
+}

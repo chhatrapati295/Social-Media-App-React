@@ -1,0 +1,59 @@
+.rightbar{
+    flex: 3;
+    /* border: 2px solid black; */
+    /* border: 2px solid red; */
+    padding: 1rem;
+    min-height: 100vh;
+    overflow: scroll;
+    background-color: rgb(246, 247, 247);
+}
+.rightbar1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin-bottom: 2rem; */
+}
+.rightbar1 img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.rightbar2{
+    width: 100%;
+    margin: 1rem 0;
+    /* border: 2px solid red; */
+    height: 200px;
+}
+.rightbar2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.rightbarLi img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.rightbar3Ul{
+    margin: 1rem 0;
+    /* border: 2px solid green; */
+    /* padding: 1rem; */
+}
+.rightbarLi{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.onlineTic{
+    color: limegreen;
+    height: 0.8rem !important;
+}
+.rightbar3-text{
+    font-weight: 700;
+    margin-top: 1rem;
+}

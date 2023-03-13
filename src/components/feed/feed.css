@@ -1,0 +1,9 @@
+.feed{
+    flex: 6;
+    /* background-color: lightcoral; */
+    /* border: 2px solid black; */
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem 1rem 0 1rem;
+    overflow: scroll;
+}

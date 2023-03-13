@@ -1,0 +1,48 @@
+.profile-container{
+    display: flex;
+}
+.profileRightBar{
+    flex: 9;
+    /* border: 2px solid black; */
+    min-height: 100vh;
+}
+.topProfileBar{
+    height: 400px;
+    /* border: 2px solid purple;     */
+    position: relative;
+}
+.profileBanner{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+.profileInfo{
+    text-align: center;
+    top: 150px;
+    left: 0;
+    /* border: 2px solid orange; */
+    padding: 1rem 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+}
+.profilePic{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
+.profileName{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+}
+.bioText{
+    font-size: 1rem;
+    color: grey;
+    /* font-weight: 700; */
+}   
+.bottomProfileBar{
+    display: flex;
+}
